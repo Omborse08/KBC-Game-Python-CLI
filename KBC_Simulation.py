@@ -111,9 +111,6 @@ for i in range(0,len(questions)):
                 passed1[2] = "❌"
                 print("\n> You Skipped A Question! ")
                 continue
-                 
-            
-                   
 
     box = int(input("- Enter Your Answer (1 - 4): "))
     if box == question[5]:
@@ -123,9 +120,9 @@ for i in range(0,len(questions)):
         elif i == 10:
             Money = 320000
     elif box == 0:
-        print(f"You Quit you Win {levels[i]}")
+        print(f"You Quit you Win {levels[i]} Your Answer is {question[6]}")
         break
     
     else:
-        print(f"Wrong Answer You Win Only {Money}")
+        print(f"Wrong Answer You Win Only {Money} And Your Answer is {question[6]}")
         break
